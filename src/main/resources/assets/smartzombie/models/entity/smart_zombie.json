@@ -1,0 +1,46 @@
+{
+  "credit": "Smart Zombie Model - based on vanilla zombie with slight modifications",
+  "texture_width": 64,
+  "texture_height": 64,
+  "elements": [
+    {
+      "name": "head",
+      "from": [
+        -4.0,
+        24.0,
+        -4.0
+      ],
+      "to": [
+        4.0,
+        32.0,
+        4.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [8.0, 8.0, 16.0, 16.0],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [0.0, 8.0, 8.0, 16.0],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [24.0, 8.0, 32.0, 16.0],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [16.0, 8.0, 24.0, 16.0],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [8.0, 0.0, 16.0, 8.0],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [16.0, 0.0, 24.0, 8.0],
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[dependencies.smartzombie]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.smartzombie]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+modId="smartzombie"
+version="1.0.0"
+displayName="Smart Zombie Mod"
+description='''
+Adds the Smart Zombie - a half-human, half-zombie hybrid that retained its intelligence.
+It picks up and uses swords and bows, backing away after melee strikes
+and keeping its distance while shooting arrows.
+'''
